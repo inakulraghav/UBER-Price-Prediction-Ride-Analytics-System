@@ -6,7 +6,7 @@ from tkinter import ttk
 import joblib
 from PIL import Image,ImageTk
 
-model = joblib.load(r'C:\Users\Lenovo\OneDrive\Desktop\Projects\IICS\model selection and training\uber_xgb_model.pkl')
+model = joblib.load(r'C:\Users\Lenovo\OneDrive\Desktop\Projects\IICS\model selection and training\uber_model.pkl')
 scaler = joblib.load(r'C:\Users\Lenovo\OneDrive\Desktop\Projects\IICS\model selection and training\scaler.pkl')
 features_list = joblib.load(r'C:\Users\Lenovo\OneDrive\Desktop\Projects\IICS\model selection and training\features_list.pkl')
 
